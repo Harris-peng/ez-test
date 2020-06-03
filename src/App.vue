@@ -6,6 +6,9 @@
     <ez-chart :data="funnelData" :keyMap="['label', 'val']" type="funnel"></ez-chart>
     <ez-chart :data="data" :keyMap="['label', 'val']" log :params="{type: 'pie'}" type="bottomLegind"></ez-chart>
     <ez-chart :data="data2" :keyMap="['val']" type="scatter"></ez-chart>
+    <h2>
+      <a href="https://github.com/Harris-peng/ez-test">代码仓库</a>
+    </h2>
   </div>
 </template>
 
